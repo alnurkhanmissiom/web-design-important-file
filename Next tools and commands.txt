@@ -1,0 +1,68 @@
+For creating next app:(Command)
+npx create-next-app puraton-book-shop
+cd puraton-book-shop
+npm run dev
+Then we add tailwind css
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p 
+then we edit tailwind.config.js and we add it inside content:
+   "./pages/**/*.{js,ts,jsx,tsx}",
+   "./components/**/*.{js,ts,jsx,tsx}",
+and then edit global.css file before html we paste it three functions:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+and then Go to index.js first of all we remove the path
+import styles from 'styles/Home.module.css' then delete the file delete the home.module.css
+
+
+
+
+Tools and Extention:
+1. Browser: https://www.google.com/chrome/
+2. For coding(VS Code): https://code.visualstudio.com/
+3. For Install Node(js-LTS Version): https://nodejs.org/en/
+4. For command Line (Git):https://git-scm.com/
+Extention:(VS-Code):
+1. Prettier-Code formatter
+2. ESLint
+3. JavaScript (ES6) code snipperts
+4. ES7 React/Redux/GraphQL/React-Native snippets(rfc) 
+
+Version Check(Git, node, npm)
+1. git --version
+2. node --version
+node -v
+3. npm --version
+npm -v
+
+Manual code(Prettier Formatter setting:
+1. create a test.js file
+import React from 'react'
+function App(){
+return <div className="test">hello world</div>
+}
+export default App;
+((((for prettier-code formatter Go to manage option
+manage>setting>Default Formatter then we select Prettier-code formatter
+then search of setting Formate On Save and check Format a file on save
+and then search also single quate and select prettier single quate))))
+{{{{{Then ctrl+shift+p you get a searchbar then search >json and select Preference Open Setting}}}}
+after open this file paste this line (  "editor.bracketPairColorization.enabled": true  )
+
+
+
+
+This Website for We Need:
+1. HTML
+2. CSS
+3. For user Location: https://www.google.ca/maps/@23.7006516,90.4586861,15z
+4. Paypal Payment Gateway: https://www.paypal.com/bd/home
+5. For cloud Service: https://cloudinary.com/
+6. For Database: https://www.mongodb.com/atlas/database
+7. For Authentication: https://next-auth.js.org/
+8. For Display Charts: https://www.chartjs.org/
+9. For Input Validation: https://react-hook-form.com/
+10.For Display Dropdown Menu: https://headlessui.com/
+11.For Getting Icon: https://heroicons.com/
+
